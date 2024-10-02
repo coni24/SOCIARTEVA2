@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">aplicacion</string>
+    <string name="sociart">SOCIART</string>
+    <string name="sociart2">SOCIART</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="Iniciar_Sesion">Iniciar Sesion</string>
+    <string name="correo">Correo</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="btnInicio">Ingresarr</string>
+</resources>
