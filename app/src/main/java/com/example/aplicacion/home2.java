@@ -25,8 +25,9 @@ public class home2 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void search(View view) {
-        Intent intent = new Intent(this, search.class);
+    public void post(View view) {
+        Intent intent = new Intent(this, Publicacion.class);
         startActivity(intent);
+
     }
 }
