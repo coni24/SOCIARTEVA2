@@ -40,7 +40,7 @@
                     android:text="Emilia Young"
                     android:textStyle="bold"
                     android:paddingLeft="10dp"
-                    android:paddingRight="30dp"
+                    android:paddingRight="10dp"
                     android:paddingBottom="6dp"
                     android:paddingTop="6dp"
                     android:textSize="12sp"
@@ -59,20 +59,10 @@
                     android:padding="8dp"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="8dp"
+
                     android:layout_alignParentTop="true" />
             </RelativeLayout>
         </FrameLayout>
-
-
-        <TextView
-            android:id="@+id/tvEventName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Fiesta Ciudadana"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
-            android:layout_gravity="start" />
 
 
         <RelativeLayout
@@ -99,6 +89,7 @@
                 android:src="@drawable/comment"
                 android:layout_toStartOf="@id/tvCommentCount"
                 android:layout_marginEnd="4dp"
+                app:tint="@color/black"
                 android:layout_centerVertical="true"/>
 
             <TextView
@@ -120,8 +111,9 @@
                 android:src="@drawable/heart_outline"
                 android:layout_toStartOf="@id/tvLikesCount"
                 android:layout_marginEnd="4dp"
+                app:tint="@color/pink"
                 android:layout_centerVertical="true"
-                app:tint="@color/pink" />
+                 />
 
 
         </RelativeLayout>
@@ -157,8 +149,8 @@
 
                 <ImageView
                     android:id="@+id/ivPhotoUpload"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
                     android:src="@drawable/subir_photo"
                     android:layout_marginEnd="6dp"
                     app:tint="@color/gray" />
@@ -166,8 +158,8 @@
 
                 <ImageView
                     android:id="@+id/ivPostComment"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
                     android:src="@drawable/update"
                     android:background="@drawable/circle_blue"
                     android:layout_marginEnd="0dp"

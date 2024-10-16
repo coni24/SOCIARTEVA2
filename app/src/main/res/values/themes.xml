@@ -6,7 +6,7 @@
         <item name="colorPrimaryVariant">@color/blue</item>
         <item name="colorOnPrimary">@android:color/white</item>
         <item name="android:navigationBarColor">#5B5959</item>
-
+        <item name="android:windowBackground">@android:color/white</item>
 
         <item name="android:buttonStyle">@style/MyButtonStyle</item>
 

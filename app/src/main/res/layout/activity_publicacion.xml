@@ -43,7 +43,7 @@
                         android:layout_height="wrap_content"
                         android:text="Emilia Young"
                         android:paddingLeft="10dp"
-                        android:paddingRight="30dp"
+                        android:paddingRight="10dp"
                         android:paddingBottom="6dp"
                         android:paddingTop="6dp"
                         android:textSize="12sp"
