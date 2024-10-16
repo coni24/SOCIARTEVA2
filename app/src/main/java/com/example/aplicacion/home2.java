@@ -2,6 +2,8 @@ package com.example.aplicacion;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -35,6 +37,18 @@ public class home2 extends AppCompatActivity {
                 return true;
             }
             return false;
+        });
+
+        ImageView imageNotifications = findViewById(R.id.ivNotificationBell);
+        imageNotifications.setOnClickListener(view -> {
+
+            startActivity(new Intent(home2.this, notifications.class));
+        });
+
+
+        ImageView imageEvent = findViewById(R.id.featuredEventImage); //
+        imageEvent.setOnClickListener(view -> {
+            startActivity(new Intent(home2.this, NuevaPublicacion.class));
         });
     }
 }
