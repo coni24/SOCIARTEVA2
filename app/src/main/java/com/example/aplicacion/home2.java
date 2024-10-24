@@ -24,7 +24,7 @@ public class home2 extends AppCompatActivity {
         activityMap.put(R.id.navigation_search, search.class);
         activityMap.put(R.id.navigation_add, NuevaPublicacion.class);
         activityMap.put(R.id.navigation_calendar, Calendario.class);
-        activityMap.put(R.id.navigation_profile, Perfil.class);
+        activityMap.put(R.id.navigation_profile, Profile.class);
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
