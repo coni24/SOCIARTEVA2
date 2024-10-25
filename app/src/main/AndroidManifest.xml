@@ -12,48 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplicacion"
         tools:targetApi="31">
-        <activity
-            android:name=".Profile"
-            android:exported="false" />
-        <activity
-            android:name=".Calendario"
-            android:exported="false" />
-        <activity
-            android:name=".NuevaPublicacion"
-            android:exported="false" />
-        <activity
-            android:name=".Comentarios"
-            android:exported="false" />
-        <activity
-            android:name=".Publicacion"
-            android:exported="false" />
-        <activity
-            android:name=".search"
-            android:exported="false" />
-        <activity
-            android:name=".noti_item"
-            android:exported="false" />
-        <activity
-            android:name=".notifications"
-            android:exported="false" />
-        <activity
-            android:name=".home2"
-            android:exported="false" />
-        <activity
-            android:name=".Registrar"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+
+
+        <activity android:name=".Profile" android:exported="false" />
+        <activity android:name=".Calendario" android:exported="false" />
+        <activity android:name=".NuevaPublicacion" android:exported="false" />
+        <activity android:name=".Comentarios" android:exported="false" />
+        <activity android:name=".Publicacion" android:exported="false" />
+        <activity android:name=".search" android:exported="false" />
+        <activity android:name=".noti_item" android:exported="false" />
+        <activity android:name=".notifications" android:exported="false" />
+        <activity android:name=".Registrar" android:exported="false" />
+
+
+        <activity android:name=".Login"
+            android:exported="false"
+            android:noHistory="true" />
+
+
+        <activity android:name=".home2"
+            android:exported="false"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
 </manifest>

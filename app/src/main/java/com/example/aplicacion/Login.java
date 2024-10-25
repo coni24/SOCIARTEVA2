@@ -7,7 +7,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.view.View;
 import android.widget.TextView;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -29,16 +28,17 @@ public class Login extends AppCompatActivity {
         });
     }
 
-    public void home2(View v){
-
+    public void home2(View v) {
         Intent i = new Intent(this, home2.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
+        finish();
     }
 
-    public void Registrar(View v){
-
+    public void Registrar(View v) {
         Intent i = new Intent(this, Registrar.class);
         startActivity(i);
     }
 }
+
 
